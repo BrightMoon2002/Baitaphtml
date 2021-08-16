@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form don gian</title>
+</head>
+<style>
+    table tr th {
+        background-color: #bf1e1e;
+        color: white;
+    }
+    table tr td{
+        background-color: white;
+        color: blue;
+    }
+</style>
+<body>
+<form>
+    <table>
+        <tr>
+            <th colspan="2">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td>Họ và tên</td>
+            <td>
+                <input name="yourname" type="name" value="" style="width:400px">
+            </td>
+        <tr>
+        <td>Email</td>
+        <td>
+            <input name="email" type="email" value="" style="width:300px">
+        </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td rowspan="4" style="vertical-align: top">Sở thích</td>
+            <td>
+            <input name="name" type="checkbox" value="thể thao" id="TT">
+            <label for="TT">Thể thao</label>
+            </td>
+            <td>
+            <input name="name" type="checkbox" value="âm nhạc" id="AN">
+            <label for="AN">Âm nhạc</label>
+            </td>
+            <td>
+            <input name="name" type="checkbox" value="Đọc sách" id="ĐS">
+            <label for="ĐS">Đọc sách</label>
+            </td>
+            <tr>
+            <td>
+            <input name="name" type="checkbox" value="lướt web" id="LW">
+            <label for="LW">Lướt web</label>
+            </td>
+            <td>
+            <input name="name" type="checkbox" value="chơi game" id="CG">
+            <label for="CG">Chơi game</label>
+             <td>
+            <input name="name" type="checkbox" value="điện ảnh" id="ĐA">
+            <label for="ĐA">Điện ảnh</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input name="name" type="checkbox" value="dulịch" id="DL">
+                <label for="DL">Du lịch</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">
+                <button type="submit">Gửi thông tin</button>
+            </td>
+            <td>
+                <button type="reset">Nhập lại</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
